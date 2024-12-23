@@ -1,0 +1,49 @@
+{
+  "name": "clg_apt_system",
+  "version": "1.0.0",
+  "description": "I need to develop the APIs for a college appointment system that allows student to book appointments with professors.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles",
+    "start": "nodemon ./bin/index"
+  },
+  "keywords": [
+    "nodemon",
+    "college",
+    "appointment",
+    "system",
+    "NodeJs",
+    "Sequelize",
+    "JWT",
+    "token"
+  ],
+  "author": "Ankit",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.11.5",
+    "nodemon": "^3.1.9",
+    "path": "^0.12.7",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "cross-env": "^7.0.3",
+    "jest": "^29.7.0",
+    "sequelize-test-helpers": "^1.4.3",
+    "supertest": "^7.0.0"
+  }
+}
